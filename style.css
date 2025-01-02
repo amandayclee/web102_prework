@@ -81,3 +81,17 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+#game-search {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    width: 200px;
+    background-color: #FFFFFF;
+}
+
+#game-search:focus {
+    outline: 2px solid lightblue;
+}

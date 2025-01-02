@@ -184,3 +184,48 @@ firstGameContainer.appendChild(topGameName);
 const runnerUpName = document.createElement("p");
 runnerUpName.textContent = secondGame.name;
 secondGameContainer.appendChild(runnerUpName);
+
+/************************************************************************************
+ * Customization
+ * Add Search Functionality
+ * Skills used: filter, 
+ */
+
+const searchInput = document.getElementById("game-search");
+const searchBtn = document.getElementById("search-btn");
+
+// search function
+function searchGames() {
+    const searchKeyWord = searchInput.value.toLowerCase();
+
+    if (searchKeyWord === '') {
+        showAllGames(GAMES_JSON);
+        return;
+    }
+    
+    const filteredGames = GAMES_JSON.filter((game) =>
+        game.name.toLowerCase().includes(searchKeyWord)
+    );
+    showSearchGames(filteredGames);
+}
+
+function showSearchGames(games) {
+    deleteChildElements(gamesContainer);
+
+    if (games.length === 0) {
+        const noGamesMessage = document.createElement("p");
+        noGamesMessage.textContent = "No games found!";
+        gamesContainer.appendChild(noGamesMessage);
+        return;
+    }
+
+    addGamesToPage(games);
+}
+
+// event listener for click button
+searchBtn.addEventListener("click", searchGames);
+searchInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") {
+        searchGames();
+    }
+});
