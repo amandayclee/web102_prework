@@ -10,14 +10,14 @@ Time spent: 4 hours spent in total
 
 The following **required** functionality is completed:
 
-* [v] The introduction section explains the background of the company and how many games remain unfunded.
-* [v] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [v] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [v] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [v] Search bar to input keyword for specific games user is looking for.
+* [x] Search bar to input keyword for specific games user is looking for.
 * [ ] Navigation bar to seperate pages of different component display (such Statistics, Our Game, Search Game, Intro Page for Each Game)
 * [ ] Add New Game functionality
 * [ ] Add period of each fundraising
