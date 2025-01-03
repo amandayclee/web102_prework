@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-[![Demo Video](https://img.youtube.com/vi/735N-wgHPcc/hqdefault.jpg)](https://youtu.be/735N-wgHPcc)
+<img src='https://i.imgur.com/A2C4nFt.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 ### DOM (Document Object Model)
