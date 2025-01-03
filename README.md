@@ -28,6 +28,8 @@ Here's a walkthrough of implemented features:
 
 <img src='https://i.imgur.com/A2C4nFt.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Direct link to demo: [https://i.imgur.com/A2C4nFt.gif](https://i.imgur.com/A2C4nFt.gif)
+
 ## Notes
 ### DOM (Document Object Model)
 - Used JavaScript to interact with HTML elements dynamically
