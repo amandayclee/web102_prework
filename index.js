@@ -188,7 +188,7 @@ secondGameContainer.appendChild(runnerUpName);
 /************************************************************************************
  * Customization
  * Add Search Functionality
- * Skills used: filter, 
+ * Skills used: filter
  */
 
 const searchInput = document.getElementById("game-search");

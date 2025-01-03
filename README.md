@@ -1,44 +1,65 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster Crowdfunding Official
 
-Submitted by: **Your Name Here**
+Submitted by: Amanda Lee
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Sea Monster Crowdfunding Official is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [v] The introduction section explains the background of the company and how many games remain unfunded.
+* [v] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [v] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [v] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [v] Search bar to input keyword for specific games user is looking for.
+* [ ] Navigation bar to seperate pages of different component display (such Statistics, Our Game, Search Game, Intro Page for Each Game)
+* [ ] Add New Game functionality
+* [ ] Add period of each fundraising
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+[![Demo Video](https://img.youtube.com/vi/735N-wgHPcc/hqdefault.jpg)](https://youtu.be/735N-wgHPcc)
 
 ## Notes
+### DOM (Document Object Model)
+- Used JavaScript to interact with HTML elements dynamically
+- Implemented event listeners for search and filter functionality
+- Created and manipulated elements using methods like `getElementById`, `createElement`
 
-Describe any challenges encountered while building the app.
+### Functions
+- Built organized, reusable functions for displaying games and handling search
+- Used named functions for better code readability and maintenance
+- Example: `searchGames()`, `showSearchGames()`
+
+### Array Methods
+#### Filter
+- Implemented search functionality using `Array.filter()`
+- Filtered games based on funding status and search keywords
+- Example: `GAMES_JSON.filter(game => game.name.toLowerCase().includes(searchTerm))`
+
+#### Reduce
+- Calculated total funding and other statistics
+- Processed game data to generate summary information
+
+### Challenges Encountered
+1. **Search Implementation**
+   - Needed to handle case sensitivity in search
+   - Added empty search handling
+
+2. **Data Display**
+   - Handled empty states appropriately
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Amanda Lee]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
